@@ -1,0 +1,294 @@
+.container{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #F1F5F9;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 56px;
+    position: relative;
+    background-color: #1B3A6B;
+    color: white;
+    font-size: 14px;
+}
+
+.navLeft{
+    width: 210px;
+    display: flex;
+    line-height: 56px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 26px;
+}
+
+.navLeft img{
+    width: 18px;
+    height: 18px;
+    margin-top: 18px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.navRight{
+    width: 25%;
+    position: absolute;
+    left: 210px;
+    line-height: 56px;
+}
+
+.navRlist{
+    display: flex;
+    flex-direction: row;
+}
+
+.navRlist li{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    width: 96px;
+}
+
+.navRlist li:last-child{
+    width: 109px;
+}
+
+.navRlist li:first-child{
+    background-color: #2D5F9E;
+}
+
+.navRlist li:nth-child(2),.navRlist li:nth-child(3),.navRlist li:nth-child(4){
+    font-weight: lighter;
+    color: #93C5FD;
+}
+
+.login{
+    position: absolute;
+    right: 0;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+}
+
+.loginBell{
+    width: 15%;
+    margin-top: 18px;
+    margin-bottom: 14px;
+    display: flex;
+}
+
+.loginBell img{
+    width: 18px;
+    height: 18px;
+    margin-left: -5px;
+    margin-right: 12px;
+}
+
+.loginBell span{
+    width: 1px ;
+    height: 30px;
+    display: block;
+    background-color: #3B5F9A;
+    margin-top: -5px;
+}
+
+.loginProfile{
+    width: 30px;
+    height: 30px;
+    background-color: #3B82F6;
+    margin: 13px 15px 0 15px;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+
+.loginInfo{
+    display: flex;
+    line-height: 56px;
+    font-size: 13px;
+    color: #CBD5E1;
+}
+
+.loginInfo hr{
+    width: 1px;
+    height: 20px;
+    background-color: #CBD5E1;
+    margin-top: 18px;
+}
+
+.loginInfo li:first-child{
+    padding-right: 10px;
+}
+
+.loginInfo li:last-child{
+    padding-left: 10px;
+}
+
+.logout{
+    margin-left: 10px;
+}
+
+.logout img{
+    width: 18px;
+    height: 18px;
+    margin-top: 18px;
+}         
+
+.mainDB{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.maindbList{
+    display: flex;
+    font-size: 14px;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.maindbList:first-child{
+    background-color: #F1F5F9;
+    text-align: center;
+    font-weight: bold;
+    color: #6B7280;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.maindbList li{
+    padding: 10px;
+    text-align: center;
+}
+
+.maindbList li:first-child{
+    width: 5%;
+}
+
+.maindbList li:nth-child(2){
+    width: 5.5%;
+}
+
+.maindbList li:nth-child(3){
+    width: 6%;
+    font-weight: bold;
+}
+
+.maindbList li:nth-child(4){
+    width: 7%;
+}
+
+.maindbList li:nth-child(5){
+    width: 6%;
+}
+
+.maindbList li:nth-child(6){
+    width: 6%;
+}
+
+.maindbList li:nth-child(7){
+    width: 10%;
+}
+
+.maindbList li:nth-child(8){
+    width: 42.5%;
+    text-align: left;
+}
+
+.maindbList li:nth-child(9){
+    width: 6%;
+}
+
+.maindbList li:nth-child(10){
+    width: 6%;
+}
+
+.mainStatus span{
+    display: block;
+    width: 80px;
+    border-radius: 50px;
+    height: 25px;
+    line-height: 25px;
+    color: #16A34A;
+    font-weight: bold;
+    background-color: #DCFCE7;
+}
+
+.mainStatus1 span{
+    display: block;
+    width: 80px;
+    border-radius: 50px;
+    height: 25px;
+    line-height: 25px;
+    color: #D97706;
+    font-weight: bold;
+    background-color: #FEF3C7;
+}
+
+.mainUpdate span{
+    display: block;
+    border-radius: 50px;
+    margin-left: 10px;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    color: #2563EB;
+    font-weight: bold;
+    background-color: #EFF6FF;
+}
+
+.maindbListlast{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    border: 1px solid #E5E7EB;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #6B7280;
+    font-size: 14px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.maindbListlast li:nth-child(2), .maindbListlast li:nth-child(3), .maindbListlast li:nth-child(4), .maindbListlast li:nth-child(5), .maindbListlast li:nth-child(6){
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: -3px;
+}  
+
+.maindbListlast li img{
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.maindbListlast li:nth-child(6){
+    right: 20px;
+}
+
+.maindbListlast li:nth-child(5){
+    right: 53px;
+}
+
+.maindbListlast li:nth-child(4){
+    right: 86px;
+}
+
+.maindbListlast li:nth-child(3){
+    right: 119px;
+    background-color: #1B3A6B;
+    color: white;
+}
+
+.maindbListlast li:nth-child(2){
+    right: 152px;
+}
